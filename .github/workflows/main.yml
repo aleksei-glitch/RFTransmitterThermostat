@@ -1,0 +1,9 @@
+- name: Arduino builder
+  # You may pin to the exact commit or the version.
+  # uses: dark0ghost/arduino_action@1e567e3f2dd571a93b01822eff17345e43511da1
+  uses: dark0ghost/arduino_action@v1.1
+  with:
+    # file compile
+    file: 
+    # link to sketch
+    link: # optional, default is https://arduino.esp8266.com/stable/package_esp8266com_index.json
